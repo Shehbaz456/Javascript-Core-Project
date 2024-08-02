@@ -10,6 +10,6 @@ Javascript projects lists
 
 ### Cheat Sheet Template - HTML / CSS / Javascript
 
-Live Demo ▶️:- https://lnkd.in/dQu-HnRG
+Live Demo ▶️:- https://shehbaz456.github.io/Cheat-Sheet-Template/
 
 ![image](https://github.com/user-attachments/assets/3eee4498-e61f-4761-8a1c-ad987a228ad9)
