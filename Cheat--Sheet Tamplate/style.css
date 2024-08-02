@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: steelblue;
+    color: white;
+    height: 73px;
+}
+
+.content{
+    font-family: 'Potta One', cursive;
+}
+
+.container p{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.supercon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fafb;
+}
+.parentcon{
+    margin-top: 40px;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.mainsubHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mainsubHeading h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.mainsubHeading img{
+    width: 110px;
+}
+
+.footer p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding: 14px 0;
+    color: #fff;
+    width: 100%;
+    background-color: rgb(78, 77, 77);
+}
+
+.container {
+    width: 60vw;
+    padding: 32px 0;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+
+.logo img{
+    border-radius: 15px;
+    width: 55px;
+}
+
+.toolbar-item{
+    cursor: pointer;
+    border: 2px solid rgb(131, 243, 56);
+    background-color: white;
+    color: black !important;
+    border-radius: 12px;
+}
+.copy-to-clipboard-button{
+    cursor: pointer;
+    color: black !important;
+    padding: 6px;
+    font-size: 16px !important;    
+}
+
+@media (max-width:540px) {
+    .container{
+        width: 80vw;
+    }
+    .parentcon{
+        flex-direction: column;
+        width: 95vw;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+    .mainsubHeading{
+        flex-direction: column-reverse;
+    }
+    .mainsubHeading img{
+    width: 180px;  
+    }
+    .parentcon h1 {
+        font-size: 24px;
+    }
+    .logo img {
+        width: 40px;
+    }
+}
