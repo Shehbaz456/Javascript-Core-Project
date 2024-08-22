@@ -10,8 +10,8 @@ Javascript projects lists
 
 ### Cheat Sheet Template - HTML / CSS / Javascript
 
-Live Demo ▶️:- https://shehbaz456.github.io/Cheat-Sheet-Template/
-
+#### Live Demo ▶️:- https://shehbaz456.github.io/Cheat-Sheet-Template/
+br
 ![image](https://github.com/user-attachments/assets/3eee4498-e61f-4761-8a1c-ad987a228ad9)
 
  ### Blink Light Fun Using js
@@ -19,6 +19,6 @@ Live Demo ▶️:- https://shehbaz456.github.io/Cheat-Sheet-Template/
 
 ### Password Generator loves to visit.
 
-Live Demo ▶️:- https://shehbaz456.github.io/Password-Generator/
-
+### Live Demo ▶️:- https://shehbaz456.github.io/Password-Generator/
+br
 ![image](https://github.com/user-attachments/assets/7631cd0b-e96b-47e6-a52f-6a555909964d)
