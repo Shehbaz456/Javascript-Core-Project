@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb on/off Effect using javascript
+    </title>
+    <style>
+        *{
+            margin: 0; padding: 0;
+        }
+        body{
+            background: #000;   
+            zoom: 1.2;
+        }
+        .bulb-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .switch{
+            position: absolute;
+            right: 10px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .onoff-off{
+            background-color: #f56954 !important;
+            border-color: #f4543c;
+            color: #fff;
+            padding: 5px 5px;
+            border-radius: 5px;
+            border-left: 70px solid #ddd;
+            width: 70px;
+            text-align: center;
+        }
+        .onoff-on{
+            background-color: #00a65a !important;
+            border-color: #008d4c ;
+            color: #fff;
+            padding: 5px 5px;
+            border-radius: 5px;
+            border-right: 70px solid #ddd;
+            width: 70px;
+            text-align: center;
+        }
+        h1{
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bulb on/off Effect using javascript</h1>
+
+    <!-- <div class="switch onoff onoff-off" id="switch">Off</div>
+    <div class="bulb-wrapper">
+        <img id="off" src="off.png">
+        <img id="on" src="on.png" style="display: none;">
+    </div> -->
+
+    <div class="bulb-wrapper">
+        <img id="bulb" src="off.png" alt="img-bulb">
+        <button id="btn" >Turn On</button>
+    </div>
+
+
+    <script>
+        let btn = document.getElementById("btn")
+        let bulb = document.getElementById("bulb")
+
+        btn.addEventListener("click",toggle_btn)
+        function toggle_btn(e){
+            if(btn.textContent.includes("On")){
+                bulb.src = "on.png"
+                btn.textContent= "turn Off" 
+            }
+            else{
+                bulb.src = "off.png"
+                btn.textContent= "turn On" 
+            }
+        }
+    </script>   
+</body>
+</html>
+
+<!-- // var bulb_on = document.getElementById('on');
+// var bulb_off = document.getElementById('off');
+// var switch_btn = document.getElementById('switch');
+
+// function toggleOnOff() {
+//     if(window.getComputedStyle(bulb_on).display === 'none'){
+//         bulb_on.style.display ='block';
+//         bulb_off.style.display ='none';
+//         switch_btn.innerHTML = 'On';
+//     }
+//     else{
+//         bulb_on.style.display = 'none';
+//         bulb_off.style.display = 'block';
+//         switch_btn.innerHTML = 'Off';
+//     }
+//     toggleSwitch();
+// }
+
+// function toggleSwitch() {
+//     switch_btn.classList.toggle('onoff-on');
+//     switch_btn.classList.toggle('onoff-off');
+// }   
+
+// switch_btn.addEventListener('click',function(){
+//     toggleOnOff();
+// }) -->
