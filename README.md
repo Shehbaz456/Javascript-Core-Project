@@ -13,3 +13,6 @@ Javascript projects lists
 Live Demo ▶️:- https://shehbaz456.github.io/Cheat-Sheet-Template/
 
 ![image](https://github.com/user-attachments/assets/3eee4498-e61f-4761-8a1c-ad987a228ad9)
+
+ ### Blink Light Fun Using js
+![image](https://github.com/user-attachments/assets/8cdd8f0c-67a0-4b7d-bb58-a984f8625d18)
