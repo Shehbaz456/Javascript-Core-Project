@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QR code generator</title>
+</head>
+<body>
+        <div class="wrapper">
+            <header>
+                <h1>Generator Password</h1>
+            <p>To secure for info, improve security </p>
+            <p>Click to generate password</p>
+        </header>
+        <div class="form">
+                <input type="text" placeholder="Generated Password" id="gen-password-p" readonly>
+           
+            <button class="copy" onclick="copyPassword()">Copy</button><br>
+            <button class="b1" id="Super_Strong_Pass" onclick="Super_Strong_Password()">Super Strong Password</button><br>
+            <button class="b2" id="Strong_Pass" onclick="Strong_Password()">Strong Password</button><br>
+            <button class="b3" id="Week_Pass" onclick="Week_Password()">Week Password</button><br>
+            <button class="b4" id="funny_pass" onclick="Funny_Password()">Funny Password</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
