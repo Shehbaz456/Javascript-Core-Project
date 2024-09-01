@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimo - Todo App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .todo-item {
+            word-wrap: break-word; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+            white-space: nowrap; 
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-blue-500 p-4 fixed top-0 inset-x-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <span class="text-white text-2xl font-bold">Ultimo</span>
+            <ul class="flex space-x-4 text-white">
+                <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                <li><a href="#todo" class="hover:text-gray-300">Todo</a></li>
+                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="pt-20 px-4">
+        <!-- Todo Section -->
+        <section id="todo" class="flex justify-center items-center min-h-screen py-12">
+            <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+                <h2 class="text-2xl font-bold mb-4 text-center">Todo List</h2>
+                <div class="mb-4">
+                    <input type="text" id="todo-input" class="border border-gray-300 p-2 rounded w-full" placeholder="Add a new task">
+                </div>
+                <button id="todo-button" onclick="addOrUpdateTodo()" class="bg-blue-500 text-white px-4 py-2 rounded w-full">Add Task</button>
+                <ul id="todo-list" class="mt-4 space-y-2">
+                    <!-- Todo items will be injected here -->
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-12 bg-gray-200">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+                <p class="text-gray-700">If you have any questions or feedback, feel free to reach out to us at <a href="mailto:info@ultimo.com" class="text-blue-500 underline">info@ultimo.com</a>. We'd love to hear from you!</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+<!-- const colors = ['#FFB6C1', '#90EE90', '#ADD8E6', '#D3D3D3', '#e4f77d', '#ffc06d']; -->
