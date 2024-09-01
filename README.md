@@ -1,6 +1,13 @@
 # Javascript-Core-Project
 Javascript projects lists
 
+### Todo App with Local Storage
+#### Technology used HTML/CSS/Javascript and TailwindCSS and AI Tools for reference 
+#### Live Here▶️:-
+![image](https://github.com/user-attachments/assets/2d0e87ab-ed0c-4494-8959-b4f6a4031e39)
+
+
+
 ### View rectangle box animation using JavaScript and Gsap.  
 ![image](https://github.com/user-attachments/assets/2994fe07-f756-4969-a9a7-92296929cd5d)
 
