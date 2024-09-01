@@ -2,8 +2,11 @@
 Javascript projects lists
 
 ### Todo App with Local Storage
+
 #### Technology used HTML/CSS/Javascript and TailwindCSS and AI Tools for reference 
-#### Live Here▶️:-
+
+#### Live Here▶️:-https://shehbaz456.github.io/Todos-App
+
 ![image](https://github.com/user-attachments/assets/2d0e87ab-ed0c-4494-8959-b4f6a4031e39)
 
 ### Cheat Sheet Template - HTML / CSS / Javascript
